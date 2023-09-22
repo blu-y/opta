@@ -1,0 +1,3 @@
+*.pyc
+mapcoloring/__pycache__/
+timetabling/__pycache__/
