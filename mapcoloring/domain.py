@@ -92,6 +92,8 @@ def generate_problem():
         Color(2, 'Green'),
         Color(3, 'Blue')
     ]
+
+    '''
     state_list = [
         State(1, 'Western Australia', [2,3]),
         State(2, 'Northern Territory', [1,3,4]),
@@ -101,7 +103,16 @@ def generate_problem():
         State(6, 'Victoria', [3,5]),
         State(7, 'Tasmania', []),
     ]
-    
+    '''
+    state_list = [
+        State(1, 'Western Australia', [2,3]),
+        State(2, 'Northern Territory', [3,4]),
+        State(3, 'South Australia', [4,5,6]),
+        State(4, 'Queensland', [5]),
+        State(5, 'New South Wales', [6]),
+        State(6, 'Victoria', []),
+        State(7, 'Tasmania', []),
+    ]
     state = state_list[0]
     state.set_color(color_list[0])
 
